@@ -23,7 +23,7 @@ jobs:
         REGION_NUM: ${{ secrets.REGION_NUM }}
       run: |
         ./IBM_Cloud_CLI/ibmcloud login <<EOF
-        $IBM_ACCOUNT
+        $IBM_ACCOUNT 
         $REGION_NUM
         no
         EOF
